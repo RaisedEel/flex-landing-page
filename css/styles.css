@@ -34,7 +34,7 @@ button{
 .first-section{
     display: flex;
     flex-direction: column;
-    padding: 0 10%;
+    padding: 0 15%;
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -59,13 +59,14 @@ button{
 
 .title-card{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 60px 0;
-    gap: 30px;
+    gap: 50px;
 }
 
 .title-card .content{
-    width: 400px;
+    flex: 1;
 }
 
 .title-card .text{
@@ -77,7 +78,7 @@ button{
 }
 
 .title-card .img{
-    width: 600px;
+    width: 500px;
     height: 200px;
     background-color: gray;
 }
@@ -87,7 +88,7 @@ button{
 .second-section{
     display: flex;
     flex-direction: column;
-    padding: 0 10%;
+    padding: 0 15%;
     margin-bottom: 60px;
 }
 
@@ -108,15 +109,15 @@ button{
 .item{
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 200px;
     text-align: center;
 }
 
 .item .img{
     border-radius: 10px;
     border: #3882f6 solid 4px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 /* Third Section*/
@@ -126,13 +127,14 @@ button{
     flex-direction: column;
     align-items: flex-end;
     background-color: #e5e7eb;
-    padding: 60px 10% 60px 25%;
+    padding: 60px 15%;
 }
 
 .quote{
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    margin-left: 10%;
 }
 
 .author{
@@ -143,5 +145,22 @@ button{
 
 .fourth-section{
     display: flex;
-    padding: 0 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 15%;
+    color: #f9faf8;
+}
+
+.action{
+    display: flex;
+    background-color: #3882f6;
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 40px 60px;
+}
+
+.action button{
+    border: #f9faf8 solid 2px;
+    align-self: center;
 }
